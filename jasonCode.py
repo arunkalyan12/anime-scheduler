@@ -18,7 +18,7 @@ def add_anime():
 
             anime = input("Enter the name of the anime: ")
 
-            break  # Break out of the loop if all inputs are valid
+            break
         except ValueError as e:
             print(f"Error: {e}")
 
@@ -49,7 +49,7 @@ def edit_schedule():
 
             anime = input("Enter the name of the anime: ")
 
-            break  # Break out of the loop if all inputs are valid
+            break
         except ValueError as e:
             print(f"Error: {e}")
 
@@ -100,7 +100,7 @@ def valid_time_format(time_str):
         return False
 
 
-# Main program
+
 options = [1, 2, 3, 4]
 print("Make sure that the main schedule program is not running during the time of making changes.")
 option = 1
